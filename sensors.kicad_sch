@@ -1046,7 +1046,7 @@
 			)
 			(justify left)
 		)
-		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f3")
+		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f4")
 	)
 	(hierarchical_label "VDD"
 		(shape input)
@@ -1057,7 +1057,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f3")
+		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f5")
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
@@ -1068,7 +1068,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f3")
+		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f6")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
@@ -1079,7 +1079,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f3")
+		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f7")
 	)
 	(hierarchical_label "MISO"
 		(shape input)
@@ -1090,7 +1090,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f3")
+		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f8")
 	)
 	(hierarchical_label "VSS"
 		(shape input)
@@ -1101,7 +1101,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f3")
+		(uuid "fc52dbbd-6bb0-4b7a-b4dc-23a3d46fc8f9")
 	)
 	(symbol
 		(lib_id "BMP390:BMP390")
@@ -1128,7 +1128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "10LGA_2X2X0p75_BOS"
+		(property "Footprint" "BMP390:10LGA_2X2X0p75_BOS"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -1222,7 +1222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA14_2.5X3X0.76_IVS"
+		(property "Footprint" "ICM-42670-P:LGA14_2.5X3X0.76_IVS"
 			(at 102.87 100.076 0)
 			(effects
 				(font

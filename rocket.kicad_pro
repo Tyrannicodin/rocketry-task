@@ -420,6 +420,10 @@
     [
       "157fcf70-07f6-4699-a0dc-76a38178ab0a",
       "Sensors"
+    ],
+    [
+      "fe9aeed3-ff94-4ab2-b0b9-a506c2c9279b",
+      "Power circuitry"
     ]
   ],
   "text_variables": {}
