@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -412,6 +412,14 @@
     [
       "d94d1fd0-ec09-478b-a1a4-3306111fc872",
       "Root"
+    ],
+    [
+      "8ffc271b-b77c-4862-a5e5-6c3b3e515885",
+      "Data Logging"
+    ],
+    [
+      "157fcf70-07f6-4699-a0dc-76a38178ab0a",
+      "Sensors"
     ]
   ],
   "text_variables": {}
