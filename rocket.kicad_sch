@@ -1134,40 +1134,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay_SolidState:CPC1020N"
+		(symbol "Relay_SolidState:TLP3544"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at -3.81 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CPC1020N"
-				(at 0 5.08 0)
+			(property "Value" "TLP3544"
+				(at -1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
-				(at 0 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1020n-datasheet?assetguid=ccf92761-d571-4531-b987-0d7a91fc62dc"
-				(at 0 -9.398 0)
+			(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1175,16 +1163,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Form A, Solid State Relay (Photo MOSFET) 30V, 1.2A, 0.25Ohm, AC/DC, SO-4"
-				(at 0 -7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "MOSFET Output Photorelay 1-Form-A NO"
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12661&prodName=TLP3544"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1193,7 +1172,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOP*3.8x4.1mm*P2.54mm*"
+			(property "Description" "Photo MOSFET optically coupled, ON 3.5A, 60mohm, OFF state 40V, Isolation 2500 VRMS, DIP-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1202,7 +1181,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "CPC1020N_0_1"
+			(property "ki_keywords" "photocouplers photorelay solidstate relay normally opened (1-Form-A)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLP3544_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -1288,10 +1285,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 1.397) (xy 0.508 1.397) (xy 0.508 -1.397) (xy 1.016 -1.397)
+						(xy 1.016 -0.635) (xy 1.016 -2.159)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1300,10 +1297,70 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -0.635) (xy 1.016 -2.159)
+						(xy 1.524 2.286) (xy 1.524 2.032) (xy 1.524 2.032)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.524 1.27) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.508) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.524) (xy 1.524 -1.524)
+					)
+					(stroke
+						(width 0.3556)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.032) (xy 1.524 -2.286) (xy 1.524 -2.286)
+					)
+					(stroke
+						(width 0.3556)
 						(type default)
 					)
 					(fill
@@ -1407,7 +1464,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0) (xy 3.81 0)
+						(xy 2.794 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -1533,79 +1590,7 @@
 					)
 				)
 			)
-			(symbol "CPC1020N_1_1"
-				(polyline
-					(pts
-						(xy 1.524 2.286) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 1.524 1.27)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.508) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 -1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.032) (xy 1.524 -2.286)
-					)
-					(stroke
-						(width 0.3302)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "TLP3544_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1642,6 +1627,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -1652,7 +1656,25 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1670,7 +1692,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2245,6 +2267,86 @@
 		(uuid "fe46d4ae-67a0-4657-af6e-32405669ffad")
 	)
 	(symbol
+		(lib_id "Relay_SolidState:TLP3544")
+		(at 168.91 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d174eea-69d8-49a0-941e-e99179484fb2")
+		(property "Reference" "U5"
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLP3544"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+			(at 168.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12661&prodName=TLP3544"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photo MOSFET optically coupled, ON 3.5A, 60mohm, OFF state 40V, Isolation 2500 VRMS, DIP-6"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a683bec-b6d2-45bb-8486-61516c72fa38")
+		)
+		(pin "1"
+			(uuid "7f60de9d-e3d0-4052-b940-93fd3769943e")
+		)
+		(pin "5"
+			(uuid "ea405475-7d9d-4247-b10d-25e0fdab0ff8")
+		)
+		(pin "2"
+			(uuid "ab548949-dc6a-4e1b-a66c-f70b33bef0fb")
+		)
+		(pin "6"
+			(uuid "58cd1df9-fda9-4b21-90b3-918ffa67530c")
+		)
+		(pin "3"
+			(uuid "602b06a5-d05c-4670-bbe6-356d7e796b37")
+		)
+		(instances
+			(project ""
+				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 186.69 87.63 270)
 		(unit 1)
@@ -2379,7 +2481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay_SolidState:CPC1020N")
+		(lib_id "Relay_SolidState:TLP3544")
 		(at 168.91 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2387,7 +2489,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71178427-9161-498c-873f-17bd7f8be91e")
+		(uuid "597e2bbd-9554-404b-a7f2-7dbf31eb19d7")
 		(property "Reference" "U6"
 			(at 168.91 81.28 0)
 			(effects
@@ -2396,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Value" "CPC1020N"
+		(property "Value" "TLP3544"
 			(at 168.91 83.82 0)
 			(effects
 				(font
@@ -2404,18 +2506,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
-			(at 168.91 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1020n-datasheet?assetguid=ccf92761-d571-4531-b987-0d7a91fc62dc"
-			(at 168.91 99.568 0)
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
+			(at 168.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,8 +2515,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 30V, 1.2A, 0.25Ohm, AC/DC, SO-4"
-			(at 168.91 97.536 0)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=12661&prodName=TLP3544"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photo MOSFET optically coupled, ON 3.5A, 60mohm, OFF state 40V, Isolation 2500 VRMS, DIP-6"
+			(at 168.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,16 +2534,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "2842f8e8-8bb4-4947-8c5b-91194d39dfb1")
+			(uuid "1b04fcbd-6034-4b56-b3c3-3a230bec87df")
 		)
 		(pin "1"
-			(uuid "474ad3c4-86d5-4dc7-b059-63ea9a2bcddd")
+			(uuid "e3c44c0f-5df6-4998-b6e1-65c97714bdfa")
+		)
+		(pin "5"
+			(uuid "5cf91866-86ab-4331-9da0-461b6355c031")
 		)
 		(pin "2"
-			(uuid "87e734df-9ccb-47f4-b598-f3c9b84aab45")
+			(uuid "7e21e5ae-fece-44f2-b17b-31c721860624")
+		)
+		(pin "6"
+			(uuid "f0dcc96c-5d4a-4ffa-8a02-f06b48201a5e")
 		)
 		(pin "3"
-			(uuid "b88086dd-067f-4b5d-b734-326d4687c0e1")
+			(uuid "70874134-0163-4bc7-9f32-4fe70a33e79a")
 		)
 		(instances
 			(project "rocket"
@@ -2632,81 +2739,6 @@
 			(project ""
 				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872"
 					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay_SolidState:CPC1020N")
-		(at 168.91 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94725ac1-b4d6-44d5-8034-16402ab370b9")
-		(property "Reference" "U1"
-			(at 168.91 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CPC1020N"
-			(at 168.91 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-4_3.8x4.1mm_P2.54mm"
-			(at 168.91 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1020n-datasheet?assetguid=ccf92761-d571-4531-b987-0d7a91fc62dc"
-			(at 168.91 81.788 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Form A, Solid State Relay (Photo MOSFET) 30V, 1.2A, 0.25Ohm, AC/DC, SO-4"
-			(at 168.91 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "16289c50-aa7e-4fde-8bf4-07db7e3dbc48")
-		)
-		(pin "1"
-			(uuid "e93d6e1f-bcf9-42ee-b902-557f6b364511")
-		)
-		(pin "2"
-			(uuid "8aa10822-dc0c-4047-ad51-514eed5b5dc0")
-		)
-		(pin "3"
-			(uuid "c76d4f2a-6844-4c47-8fdc-9f06916ff666")
-		)
-		(instances
-			(project ""
-				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872"
-					(reference "U1")
 					(unit 1)
 				)
 			)

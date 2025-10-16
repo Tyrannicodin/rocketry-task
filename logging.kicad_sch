@@ -1246,7 +1246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b4bc705-8c60-4053-8652-bc55985d7dd6")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 107.5533 93.98 0)
 			(effects
 				(font
@@ -1342,7 +1342,7 @@
 		(instances
 			(project "rocket"
 				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872/8ffc271b-b77c-4862-a5e5-6c3b3e515885"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)

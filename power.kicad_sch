@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9b00ce80-10e4-4e7a-95f2-c51f0bdb472c")
+	(uuid "46b6cd17-d18a-4a01-a285-d5307476d641")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1237,7 +1237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53ee284d-1623-488c-a716-a0a301756a1a")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -1313,7 +1313,7 @@
 		(instances
 			(project "rocket"
 				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872/fe9aeed3-ff94-4ab2-b0b9-a506c2c9279b"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
