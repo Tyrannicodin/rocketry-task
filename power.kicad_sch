@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "46b6cd17-d18a-4a01-a285-d5307476d641")
+	(uuid "88e77333-d696-45c7-bff7-064adfa4384c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1413,7 +1413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
 			(at 113.03 86.36 0)
 			(effects
 				(font

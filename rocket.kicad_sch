@@ -9,6 +9,130 @@
 		(date "2025-10-15")
 	)
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -1828,16 +1952,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 87.63) (xy 161.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cf9b8dc-7b01-46f4-92c2-d337b5ed5ed4")
-	)
-	(wire
-		(pts
 			(xy 181.61 78.74) (xy 184.15 78.74)
 		)
 		(stroke
@@ -1865,6 +1979,16 @@
 			(type default)
 		)
 		(uuid "44ea7239-1bb1-4249-a4a7-0004874d9745")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cf813f-3eb5-492f-9276-339fbfc82689")
 	)
 	(wire
 		(pts
@@ -1915,6 +2039,16 @@
 			(type default)
 		)
 		(uuid "600305ba-ae3e-4836-8a94-3546ee0f0413")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66468d84-6934-4ae2-bbdd-680c6f04aa28")
 	)
 	(wire
 		(pts
@@ -2088,16 +2222,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 125.73 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aafcb3ce-4ca9-4bbf-b35f-d3cbf60ff419")
-	)
-	(wire
-		(pts
 			(xy 64.77 113.03) (xy 80.01 113.03)
 		)
 		(stroke
@@ -2195,6 +2319,26 @@
 			(type default)
 		)
 		(uuid "c9d59ba9-6a43-40de-a9f5-da3baf88068b")
+	)
+	(wire
+		(pts
+			(xy 125.73 87.63) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf28c029-1d33-4cc7-b7f7-aba5723b7f1e")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d031c2bc-9dc2-4f70-997f-1a002446663a")
 	)
 	(wire
 		(pts
@@ -2561,6 +2705,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 137.16 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d798f2c-3a8a-49d2-a92c-fd8dcf5896b1")
+		(property "Reference" "R1"
+			(at 137.16 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 137.16 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 137.16 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be8dc300-cbf8-4a5f-aa71-47c4bcde6365")
+		)
+		(pin "1"
+			(uuid "9bafe999-222e-4c78-a637-f384412995d5")
+		)
+		(instances
+			(project ""
+				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
 		(at 102.87 97.79 0)
 		(unit 1)
@@ -2739,6 +2950,73 @@
 			(project ""
 				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a907fcf5-1ca4-4570-9996-6397e82f4058")
+		(property "Reference" "R2"
+			(at 147.32 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 147.32 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 147.32 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1694ae64-7cf0-4965-814d-61b73754429b")
+		)
+		(pin "1"
+			(uuid "a2b0aac0-b6ea-4fd9-8f3b-0a8397734145")
+		)
+		(instances
+			(project "rocket"
+				(path "/d94d1fd0-ec09-478b-a1a4-3306111fc872"
+					(reference "R2")
 					(unit 1)
 				)
 			)
