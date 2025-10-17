@@ -1068,7 +1068,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bff7d711-b86c-454e-b736-1334995e271b")
+		(uuid "bff7d711-b86c-454e-b736-1334995e271c")
 	)
 	(hierarchical_label "BGND"
 		(shape input)
@@ -1079,7 +1079,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bff7d711-b86c-454e-b736-1334995e271b")
+		(uuid "bff7d711-b86c-454e-b736-1334995e271d")
 	)
 	(hierarchical_label "7.4V"
 		(shape input)
@@ -1090,7 +1090,7 @@
 			)
 			(justify left)
 		)
-		(uuid "bff7d711-b86c-454e-b736-1334995e271b")
+		(uuid "bff7d711-b86c-454e-b736-1334995e271e")
 	)
 	(symbol
 		(lib_id "Device:C")
